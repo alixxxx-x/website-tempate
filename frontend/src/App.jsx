@@ -10,6 +10,7 @@ import Home from "@/pages/Home";
 import AdminPanel from "@/pages/AdminPanel";
 import AboutUs from "@/pages/AboutUs";
 import Profile from "@/pages/Profile";
+import ForgotPassword from "@/pages/ForgotPassword";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Navbar />
         {/* Spacer for fixed navbar */}
         <div className="h-16"></div>
-        
+
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />

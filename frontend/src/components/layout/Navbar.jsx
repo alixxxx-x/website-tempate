@@ -57,18 +57,16 @@ export default function Navbar() {
     };
 
     const navLinks = [
-        { name: "Home", path: "/" },
-        { name: "Internships", path: "/internships" },
-        { name: "Companies", path: "/companies" },
-        { name: "Applications", path: "/applications" },
-        { name: "About Us", path: "/about" },
+        { name: "Home",     path: "/"        },
+        { name: "Features", path: "/features" },
+        { name: "About Us", path: "/about"    },
     ];
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-[100] bg-white border-b border-slate-100 shadow-sm">
             <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-0.5 hover:opacity-80 transition-opacity">
-                    <span className="text-2xl font-black tracking-tighter text-slate-900 uppercase">Inter.Ship</span>
+                    <span className="text-2xl font-black tracking-tighter text-slate-900">Brand.Name</span>
                     <span className="text-primary text-3xl leading-none -mt-1">.</span>
                 </Link>
 
