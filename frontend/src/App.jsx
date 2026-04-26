@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
-=======
-import { Routes, Route, Navigate } from "react-router-dom";
-import { ThemeProvider } from "@/components/theme-provider";
->>>>>>> 3ba8e2ef36140f5053ddc7a8f7cb06cad2b0b153
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ProtectedRoute from "@/routes/ProtectedRoute";
@@ -16,7 +11,6 @@ import Home from "@/pages/Home";
 import AdminPanel from "@/pages/AdminPanel";
 import AboutUs from "@/pages/AboutUs";
 import Profile from "@/pages/Profile";
-<<<<<<< HEAD
 import Settings from "@/pages/Settings";
 import DashboardLayout from "@/components/layout/DashboardLayout";
 import Dashboard from "@/pages/Dashboard";
@@ -75,46 +69,6 @@ function App() {
           {!hideNavFooter && <Footer />}
         </div>
       </TooltipProvider>
-=======
-
-function App() {
-  return (
-    <ThemeProvider defaultTheme="light" storageKey="intership-theme">
-      <div className="flex flex-col min-h-screen bg-background text-foreground tracking-tight">
-        <Navbar />
-        {/* Spacer for fixed navbar */}
-        <div className="h-16"></div>
-        
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route
-              path="/profile"
-              element={
-                <ProtectedRoute>
-                  <Profile />
-                </ProtectedRoute>
-              }
-            />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route
-              path="/admin"
-              element={
-                <AdminRoute>
-                  <AdminPanel />
-                </AdminRoute>
-              }
-            />
-            <Route path="/logout" element={<Logout />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-        </main>
-
-        <Footer />
-      </div>
->>>>>>> 3ba8e2ef36140f5053ddc7a8f7cb06cad2b0b153
     </ThemeProvider>
   );
 }
@@ -125,3 +79,4 @@ function Logout() {
 }
 
 export default App;
+

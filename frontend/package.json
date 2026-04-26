@@ -15,10 +15,7 @@
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
-<<<<<<< HEAD
     "@radix-ui/react-label": "^2.1.8",
-=======
->>>>>>> 3ba8e2ef36140f5053ddc7a8f7cb06cad2b0b153
     "@radix-ui/react-navigation-menu": "^1.2.14",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
@@ -26,20 +23,14 @@
     "axios": "^1.13.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-<<<<<<< HEAD
     "framer-motion": "^12.38.0",
-=======
->>>>>>> 3ba8e2ef36140f5053ddc7a8f7cb06cad2b0b153
     "jwt-decode": "^4.0.0",
     "lucide-react": "^1.7.0",
     "postcss": "^8.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0",
-<<<<<<< HEAD
     "recharts": "^3.8.1",
-=======
->>>>>>> 3ba8e2ef36140f5053ddc7a8f7cb06cad2b0b153
     "shadcn": "^4.2.0",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.1.18",

@@ -4,12 +4,8 @@ import axios from "axios";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "@/constants";
 
 const api = axios.create({
-<<<<<<< HEAD
     baseURL: import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api", // Fallback added to ensure requests don't fail if .env is missing/not loaded
-=======
-    baseURL: import.meta.env.VITE_API_URL, // bch mndirouch koul mara [axios.get('http://localhost:8000/users')] nwilw direct [api.get('/users')] 
->>>>>>> 3ba8e2ef36140f5053ddc7a8f7cb06cad2b0b153
-});
+})
 
 // request intercepter : function that runs before every request + yjib access token mn local storage + y7otou fl header automatically
 
